@@ -18,6 +18,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B7AD2B01FB9904500705756 /* ExtensionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionHeader.h; sourceTree = "<group>"; };
+		3B7AD2B21FB9904500705756 /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2B31FB9904500705756 /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2B41FB9904500705756 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2B51FB9904500705756 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2B61FB9904500705756 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2B71FB9904500705756 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2B91FB9904500705756 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2BA1FB9904500705756 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2BB1FB9904500705756 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2BC1FB9904500705756 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2BD1FB9904500705756 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		3B7AD2BE1FB9904500705756 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		3B7AD2BF1FB9904500705756 /* MyCustomUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCustomUIKit.h; sourceTree = "<group>"; };
+		3B7AD2C01FB9904500705756 /* MyCustomUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCustomUIKit.m; sourceTree = "<group>"; };
 		3BA2F26C1FB6AEB000BE06DE /* WisdomCashier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomCashier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA2F26F1FB6AEB000BE06DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BA2F2701FB6AEB000BE06DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +70,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3B7AD2AF1FB9904500705756 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AD2B01FB9904500705756 /* ExtensionHeader.h */,
+				3B7AD2B11FB9904500705756 /* Foundation */,
+				3B7AD2B81FB9904500705756 /* Kit */,
+				3B7AD2BF1FB9904500705756 /* MyCustomUIKit.h */,
+				3B7AD2C01FB9904500705756 /* MyCustomUIKit.m */,
+			);
+			name = Extension;
+			path = ../../Extension;
+			sourceTree = "<group>";
+		};
+		3B7AD2B11FB9904500705756 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AD2B21FB9904500705756 /* NSDate+Extension.h */,
+				3B7AD2B31FB9904500705756 /* NSDate+Extension.m */,
+				3B7AD2B41FB9904500705756 /* NSString+Extension.h */,
+				3B7AD2B51FB9904500705756 /* NSString+Extension.m */,
+				3B7AD2B61FB9904500705756 /* UIView+Extension.h */,
+				3B7AD2B71FB9904500705756 /* UIView+Extension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3B7AD2B81FB9904500705756 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AD2B91FB9904500705756 /* UIColor+Extension.h */,
+				3B7AD2BA1FB9904500705756 /* UIColor+Extension.m */,
+				3B7AD2BB1FB9904500705756 /* UIImage+Extension.h */,
+				3B7AD2BC1FB9904500705756 /* UIImage+Extension.m */,
+				3B7AD2BD1FB9904500705756 /* UIViewController+Extension.h */,
+				3B7AD2BE1FB9904500705756 /* UIViewController+Extension.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
 		3BA2F2631FB6AEAF00BE06DE = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +134,7 @@
 				3BA2F2701FB6AEB000BE06DE /* AppDelegate.m */,
 				3BA2F2721FB6AEB000BE06DE /* ViewController.h */,
 				3BA2F2731FB6AEB000BE06DE /* ViewController.m */,
+				3B7AD2AF1FB9904500705756 /* Extension */,
 				3BA2F28A1FB6CC7500BE06DE /* Net */,
 				3BA2F2891FB6CC6B00BE06DE /* Extension */,
 				3BA2F2881FB6CC6500BE06DE /* Common */,
