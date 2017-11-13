@@ -1,0 +1,16 @@
+//
+//  WC_PrefixHeader.pch
+//  WisdomCashier
+//
+//  Created by 悦生活 on 2017/11/11.
+//  Copyright © 2017年 ICE. All rights reserved.
+//
+
+#ifndef WC_PrefixHeader_pch
+#define WC_PrefixHeader_pch
+
+
+
+
+
+#endif /* WC_PrefixHeader_pch */

@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+platform :ios, ‘8.0’
+use_frameworks!
+
+def oc_pods
+    pod 'MMPopupView'
+    pod 'MBProgressHUD'
+    pod 'AFNetworking'
+    pod 'ReactiveObjC'
+    pod 'MJRefresh'
+end
+
+target 'WisdomCashier' do
+    oc_pods
+end

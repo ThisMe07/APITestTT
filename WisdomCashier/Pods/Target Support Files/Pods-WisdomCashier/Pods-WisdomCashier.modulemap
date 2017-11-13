@@ -1,0 +1,6 @@
+framework module Pods_WisdomCashier {
+  umbrella header "Pods-WisdomCashier-umbrella.h"
+
+  export *
+  module * { export * }
+}

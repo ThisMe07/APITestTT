@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  DebugDemo
+//  WisdomCashier
 //
-//  Created by ice on 15/5/25.
-//  Copyright (c) 2015年 ice. All rights reserved.
+//  Created by 悦生活 on 2017/11/11.
+//  Copyright © 2017年 ICE. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,14 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *arr=@[];
-     NSString *bug=arr[1];
-    NSLog(@"======%@",bug);
+    // Do any additional setup after loading the view, typically from a nib.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="xWk-Qc-IRF">
+            <objects>
+                <navigationController id="EW0-x2-QGf" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iYR-Ii-yhz">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qhQ-uk-376" kind="relationship" relationship="rootViewController" id="0mS-t6-DfJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elR-8f-Ovp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-857" y="107"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P5J-m8-JGc">
+            <objects>
+                <viewController id="qhQ-uk-376" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wcO-fF-1Hl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_adv_banner1" translatesAutoresizingMaskIntoConstraints="NO" id="sFd-tG-nVW">
+                                <rect key="frame" x="0.0" y="44" width="375" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sFd-tG-nVW" firstAttribute="top" secondItem="wcO-fF-1Hl" secondAttribute="top" constant="44" id="5vt-6j-Ybj"/>
+                            <constraint firstItem="sFd-tG-nVW" firstAttribute="centerX" secondItem="wcO-fF-1Hl" secondAttribute="centerX" id="NP4-6b-q8h"/>
+                            <constraint firstItem="sFd-tG-nVW" firstAttribute="width" secondItem="wcO-fF-1Hl" secondAttribute="width" id="Ulx-Ps-U74"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6pz-7Z-8vY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m71-7N-R79" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130.40000000000001" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_adv_banner1" width="375" height="200"/>
+    </resources>
+</document>
